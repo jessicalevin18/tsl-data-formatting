@@ -28,3 +28,8 @@ theme_minimal() +
 theme(axis.title.x = element_text(margin = margin(t = 15)),
         axis.title.y = element_text(margin = margin(r = 10)))
 ```
+
+#### Export code
+```
+ggsave("ai-professor-policy-bw-nolines.pdf", plot = b_w_no_lines, device = "pdf", width = 8, height = 6)
+```
