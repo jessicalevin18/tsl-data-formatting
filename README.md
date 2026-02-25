@@ -13,3 +13,18 @@ theme(panel.grid.major = element_blank(),
 
 #### Color Guidelines
 
+##### Online version
+Any variation of colors you think look good works!
+
+##### Black and white print version
+Any grayscale colors work as long as they will be distinguishable in print. For ex: 
+```
+b_w <- c("label1" = "#666666", "label2= "#666666", "label3"= "#999999", "label4"= "#CCCCCC")
+```
+
+#### Other theme guidelines
+```
+theme_minimal() +
+theme(axis.title.x = element_text(margin = margin(t = 15)),
+        axis.title.y = element_text(margin = margin(r = 10)))
+```
