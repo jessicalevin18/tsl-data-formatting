@@ -10,3 +10,6 @@ theme(text = element_text(family = "Palatino"))
 theme(panel.grid.major = element_blank(),
       panel.grid.minor = element_blank())
 ```
+
+#### Color Guidelines
+
